@@ -13,6 +13,7 @@
     top: 0;
     left: 0;
     background: #17092a;
+    overflow-x: hidden;
 
 }
 
@@ -190,6 +191,7 @@
     animation-delay: -101s;
     transform-origin: -22vw -21vh;
     box-shadow: 12vmin 0 1.7438241401626495vmin currentColor;
+    
 }
 
 
@@ -201,6 +203,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+
 }
 
 
@@ -420,7 +423,7 @@
 
     .top{
         height: 4rem;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
         font-size: 10vmin;
     }
     .background{
